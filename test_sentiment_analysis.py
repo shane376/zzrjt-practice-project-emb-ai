@@ -2,7 +2,7 @@ from SentimentAnalysis.sentiment_analysis import sentiment_analyzer
 import unittest
 
 #Testing class for sentiment_analyzer
-class TestSentimentAnalyzer(unittest.Testcase):
+class TestSentimentAnalyzer(unittest.TestCase):
     def test_sentiment_analyzer(self):
         #Test positive case
         result_1 = sentiment_analyzer("I love working with Python")
